@@ -13,7 +13,17 @@ const port = process.env.PORT || 5000;
 
 //middlewares
 app.use(express.json());
-app.use(cors());
+const allowedOrigins = [
+  ...process.env.FRONTEND_URL.split(","),
+  ...process.env.ADMIN_URL.split(","),
+];
+
+app.use(
+  cors({
+    origin: allowedOrigins,
+    // credentials: true, // Only if you use cookies
+  })
+);
 
 connectDB();
 connectCloudinary();
