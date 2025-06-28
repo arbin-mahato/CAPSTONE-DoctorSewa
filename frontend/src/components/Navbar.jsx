@@ -37,7 +37,7 @@ const Navbar = () => {
           <hr className="border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden" />
         </NavLink>
         <a
-          href="http://localhost:5174"
+          href={import.meta.env.VITE_ADMIN_URL}
           target="_blank"
           rel="noopener noreferrer"
           className="py-2 px-6 rounded-full bg-white text-black border border-gray-300 font-semibold transition-colors duration-200 hover:bg-primary hover:text-white hover:border-primary ml-2 flex items-center justify-center shadow-sm"
