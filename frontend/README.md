@@ -6,7 +6,8 @@ DoctorSewa is a full-stack medical appointment platform that enables patients to
 
 ## 🚀 Live Demo
 
-🔗 [Visit Deployed App]()
+🔗 [User Panel](https://doctorsewa.vercel.app/)
+🔗 [Admin Panel](https://admin-doctorsewa.vercel.app/)
 
 ---
 
@@ -79,6 +80,12 @@ DoctorSewa is a full-stack medical appointment platform that enables patients to
 - Cloudinary Account
 
 ---
+
+### 🔐 Default Admin Credentials
+
+You can use the following admin credentials to test the **Admin Panel**:
+- Email: admin@doctorsewa.com
+- Password: qwerty123
 
 ## ⚙️ Installation Instructions
 
@@ -179,4 +186,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 Designed in [Figma](https://www.figma.com/design/pkVlIljjezVgGI9xEeB7kn/DoctorSewa---UI-Design) with ❤️  
 Developed by [Arbin Mahato](https://github.com/arbin07)  
-Part of the **Kalvium** Academic Portfolio Project
+Part of the **Kalvium** Academic Project
